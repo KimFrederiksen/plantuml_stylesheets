@@ -24,19 +24,19 @@ skinparam stereotypeCBackgroundColor $ACCENTDARK
 !endif
 
 !ifdef MYCOLORS
-!$ACCENT = "2a86e2"
-!$ACCENTDARK = "1a66c2"
+!$ACCENT = "007981"
+!$ACCENTDARK = "f3a51f"
 skinparam stereotypeCBackgroundColor $ACCENTDARK
 !define MYSTYLE
 !endif
 
 !ifdef MYSTYLE
-!$PRIMARYFONTCOLOR = "000"
-!$SECONDARY = "333"
-!$ARROWCOLOR = "000"
-!$ARROWFONTCOLOR = "333"
-!$BORDERCOLOR = "aaa"
-!$BOXBG = "ccc"
+!$PRIMARYFONTCOLOR = "171806"
+!$SECONDARY = "425c51"
+!$ARROWCOLOR = "171806"
+!$ARROWFONTCOLOR = "257771"
+!$BORDERCOLOR = "007981"
+!$BOXBG = "a17a41"
 !$LIGHTBORDERCOLOR = "cccccc"
 !$LIGHTBG = "e0e0e0"
 skinparam backgroundColor fff

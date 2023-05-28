@@ -36,7 +36,7 @@ skinparam stereotypeCBackgroundColor 00232d
 !$ARROWCOLOR = "eee8d5"
 !$ARROWFONTCOLOR = "257771"
 !$BORDERCOLOR = "ffffff"
-!$BOXBG = "586e75"
+!$BOXBG = "93a1a1"
 !$LIGHTBORDERCOLOR = "cccccc"
 !$LIGHTBG = "00232d"
 skinparam backgroundColor 00232d

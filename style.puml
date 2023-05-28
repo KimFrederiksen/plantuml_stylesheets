@@ -24,7 +24,7 @@ skinparam stereotypeCBackgroundColor $ACCENTDARK
 !endif
 
 !ifdef MYCOLORS
-!$ACCENT = "007981"
+!$ACCENT = "fff"
 !$ACCENTDARK = "f3a51f"
 skinparam stereotypeCBackgroundColor 00232d
 !define MYSTYLE

@@ -23,6 +23,25 @@ skinparam stereotypeCBackgroundColor $ACCENTDARK
 !define LIGHTSTYLE
 !endif
 
+!ifdef MYCOLORS
+!$ACCENT = "2a86e2"
+!$ACCENTDARK = "1a66c2"
+skinparam stereotypeCBackgroundColor $ACCENTDARK
+!define MYSTYLE
+!endif
+
+!ifdef MYSTYLE
+!$PRIMARYFONTCOLOR = "000"
+!$SECONDARY = "333"
+!$ARROWCOLOR = "000"
+!$ARROWFONTCOLOR = "333"
+!$BORDERCOLOR = "aaa"
+!$BOXBG = "ccc"
+!$LIGHTBORDERCOLOR = "cccccc"
+!$LIGHTBG = "e0e0e0"
+skinparam backgroundColor fff
+!endif
+
 !ifdef DARKRED
 !$ACCENT = "880000"
 !$ACCENTDARK = "330000"

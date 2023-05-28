@@ -39,7 +39,7 @@ skinparam stereotypeCBackgroundColor $ACCENTDARK
 !$BOXBG = "a17a41"
 !$LIGHTBORDERCOLOR = "cccccc"
 !$LIGHTBG = "425c51"
-skinparam backgroundColor 425c51
+skinparam backgroundColor "00232d"
 !endif
 
 !ifdef DARKRED

@@ -32,7 +32,7 @@ skinparam stereotypeCBackgroundColor 00232d
 
 !ifdef MYSTYLE
 !$PRIMARYFONTCOLOR = "000000"
-!$SECONDARY = "00bbbb"
+!$SECONDARY = "000000"
 !$ARROWCOLOR = "eee8d5"
 !$ARROWFONTCOLOR = "257771"
 !$BORDERCOLOR = "ffffff"

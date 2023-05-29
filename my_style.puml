@@ -1,0 +1,112 @@
+@startuml
+
+!if (%not(%variable_exists("$FONTNAME")))
+!$FONTNAME = "Verdana"
+!endif
+
+!if (%not(%variable_exists("$FONTSIZE")))
+!$FONTSIZE = 11
+!endif
+
+!ifdef MYCOLORS
+
+skinparam ObjectAttributeFontColor f00
+skinparam ObjectAttributeFontName "Source-Code-Pro"
+skinparam ObjectAttributeFontSize 12
+skinparam ObjectAttributeFontStyle Regular
+skinparam ObjectBorderThickness 1
+skinparam ObjectFontColor f00
+skinparam ObjectFontName "Source-Code-Pro"
+skinparam ObjectFontSize 12
+skinparam ObjectFontStyle Regular
+skinparam ObjectStereotypeFontColor f00
+skinparam ObjectStereotypeFontName "Source-Code-Pro"
+skinparam ObjectStereotypeFontSize 12
+skinparam ObjectStereotypeFontStyle Regular
+
+skinparam LegendBorderThickness 1
+skinparam LegendFontColor 111
+skinparam LegendFontName "Source-Code-Pro"
+skinparam LegendFontSize 12
+skinparam LegendFontStyle Regular
+
+skinparam NoteBackgroundColor 2aa198
+skinparam NoteBorderColor 000
+skinparam NoteBorderThickness 1
+skinparam NoteFontColor fdf6e3
+skinparam NoteFontName "Source-Code-Pro"
+skinparam NoteFontSize 12
+skinparam NoteFontStyle Regular
+skinparam NoteShadowing false
+skinparam NoteTextAlignment Left
+
+skinparam EntityFontColor fff
+skinparam EntityFontName "Source-Code-Pro"
+skinparam EntityFontSize 12
+skinparam EntityFontStyle Regular
+skinparam EntityStereotypeFontColor fff
+skinparam EntityStereotypeFontName "Source-Code-Pro"
+skinparam EntityStereotypeFontSize 12
+skinparam EntityStereotypeFontStyle Regular
+
+skinparam ClassAttributeFontColor 002b36
+skinparam ClassAttributeFontName "Source-Code-Pro"
+skinparam ClassAttributeFontSize 15
+skinparam ClassAttributeFontStyle Regular
+skinparam ClassAttributeIconSize 12
+skinparam ClassBackgroundColor fdf6e3
+skinparam ClassBorderColor 000
+skinparam ClassBorderThickness 1
+skinparam ClassFontColor 002b36
+skinparam ClassFontName "Source-Code-Pro"
+skinparam ClassFontSize 17
+skinparam ClassFontStyle Bold
+skinparam ClassStereotypeFontColor 000
+skinparam ClassStereotypeFontName "Source-Code-Pro"
+skinparam ClassStereotypeFontSize 10
+skinparam ClassStereotypeFontStyle Regular
+
+skinparam ArrowColor 333
+skinparam ArrowFontColor 111
+skinparam ArrowFontName "Source-Code-Pro"
+skinparam ArrowFontSize 12
+skinparam ArrowFontStyle Regular
+skinparam ArrowHeadColor 333
+skinparam ArrowLollipopColor b58900
+skinparam ArrowMessageAlignment Along
+skinparam ArrowThickness 1
+
+skinparam PageBorderColor fff
+skinparam PageExternalColor ff0
+skinparam PageMargin 124
+
+skinparam BoxPadding 20
+skinparam Padding 6
+
+'skinparam BackgroundColor 00232d
+skinparam BackgroundColor aaa
+skinparam shadowing<<with_shadow>> false
+
+skinparam CircledCharacterFontColor fff
+skinparam CircledCharacterFontName "Source-Code-Pro"
+skinparam CircledCharacterFontSize 12
+skinparam CircledCharacterFontStyle Bold
+skinparam CircledCharacterRadius 14
+
+skinparam PackageBorderThickness 1
+skinparam PackageBorderColor 777
+skinparam PackageFontColor fff
+skinparam PackageFontName "Source-Code-Pro"
+skinparam PackageFontSize 16
+skinparam PackageFontStyle Regular
+skinparam PackageStereotypeFontColor 777
+skinparam PackageStereotypeFontName "Source-Code-Pro"
+skinparam PackageStereotypeFontSize 16
+skinparam PackageStereotypeFontStyle Regular
+skinparam PackageStyle Regular
+skinparam PackageTitleAlignment Left
+
+skinparam SameClassWidth True
+!endif
+
+@enduml

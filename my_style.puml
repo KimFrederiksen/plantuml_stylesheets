@@ -103,7 +103,7 @@ skinparam PackageStereotypeFontColor 777
 skinparam PackageStereotypeFontName "Source-Code-Pro"
 skinparam PackageStereotypeFontSize 16
 skinparam PackageStereotypeFontStyle Regular
-skinparam PackageStyle Regular
+'skinparam PackageStyle Regular
 skinparam PackageTitleAlignment Left
 
 skinparam SameClassWidth True
